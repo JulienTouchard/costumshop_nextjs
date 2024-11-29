@@ -1,0 +1,32 @@
+.navMenu {
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+}
+
+.navMenu a {
+    text-decoration: none;
+    color: #464646;
+}
+
+.navMenu a:hover {
+    cursor: pointer;
+}
+.navMenu li {
+    padding: .5rem
+}
+.navMenu li:hover {
+    backdrop-filter: blur(5px);
+}
+@media screen and (orientation: portrait){
+    .navMenu{
+        background-color: aqua;
+    }
+}
+@media screen and (orientation: landscape){
+    .navMenu{
+        background-color: fuchsia;
+    }
+}

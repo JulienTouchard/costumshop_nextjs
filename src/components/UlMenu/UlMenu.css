@@ -1,0 +1,26 @@
+.menuEntries,
+.menuEntriesMobile {
+    list-style-type: none;
+    color: #fff;
+}
+
+.menuEntriesMobile {
+    position: absolute;
+    top: 5vh;
+    height: 90vh;
+    width: 90%;
+}
+
+.menuEntries {
+    display: flex;
+    margin-right: .5rem;
+}
+.gradiant {
+    background: #bfbcbc;
+    background: linear-gradient(324deg, #bfbcbc 0%, #ffffff 80%);
+    background: -webkit-linear-gradient(324deg, #bfbcbc 0%, #ffffff 80%);
+    background: -moz-linear-gradient(324deg, #bfbcbc 0%, #ffffff 80%);
+    box-shadow: 4px 4px 5px 0px rgba(170, 168, 168, 0.75);
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(170, 168, 168, 0.75);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(170, 168, 168, 0.75);
+}
